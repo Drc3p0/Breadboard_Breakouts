@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IPS6011PBF
+D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
+K  Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips6011pbf.pdf
+$ENDCMP
+#
+$CMP IPS6021PBF
+D 39V, 32A, Intelligent Power Switch High Side, TO-220-5
+K  Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips6021pbf.pdf
+$ENDCMP
+#
+$CMP IPS6031PBF
+D 39V, 16A, Intelligent Power Switch High Side, TO-220-5
+K  Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips6031pbf.pdf
+$ENDCMP
+#
+$CMP IPS6041PBF
+D 39V, 5A, Intelligent Power Switch High Side, TO-220
+K Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips6041pbf.pdf
+$ENDCMP
+#
+$CMP MIC2941_ldo
+D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
+K  Intelligent Power Switch High Side MOSFET
+F http://www.irf.com/product-info/datasheets/data/ips6011pbf.pdf
+$ENDCMP
+#
+#End Doc Library

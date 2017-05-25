@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/DarcysMac/Desktop/Prototyping_Workshop/Prototyping PCB for Chicago/breadboard_breakouts/breadboard_breakouts.sch</source>
+    <date>Wednesday, May 24, 2017 'PMt' 08:10:57 PM</date>
+    <tool>Eeschema (2017-04-07 revision 70c961f)-master</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>breadboard_breakouts.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/hpMixer/" tstamps="/589D4DD6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>hpMixer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/power/" tstamps="/589D6CC1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58AD20D9</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47pF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>589D5FCE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL082</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="linear" part="TL082"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>58B7D323</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>.1uF</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>58CDCFE3</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>.1uF</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>58CDD082</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>.1uF</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>58CDD33A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>.1uF</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>58CDD38A</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>592390A0</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Mix_In</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>59239428</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>59252E71</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>592530C2</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>592536CB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100uF</value>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>592539AD</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100uF</value>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>59253A43</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>59253AE2</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>59253B92</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>59253BEE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>59255180</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>592551D5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>59255219</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100K</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/hpMixer/" tstamps="/589D4DD6/"/>
+      <tstamp>5925525F</tstamp>
+    </comp>
+    <comp ref="P22">
+      <value>-  +</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>58CDEBB0</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>BARREL_JACK</value>
+      <footprint>4ms-footprints:BARRELJACK-PJ064</footprint>
+      <libsource lib="conn" part="BARREL_JACK"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59234ABC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59234FC5</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59235021</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>592351E4</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>22uF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>592356A4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_Small</value>
+      <footprint>Resistors_THT:R_Box_L8.4mm_W2.5mm_P5.08mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59235AD3</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>V+ adjust</value>
+      <footprint>4ms-footprints:POT-9MM-ALPHA</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59235D43</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_Small</value>
+      <footprint>Resistors_THT:R_Box_L8.4mm_W2.5mm_P5.08mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59236BB2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_Small</value>
+      <footprint>Resistors_THT:R_Box_L8.4mm_W2.5mm_P5.08mm</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59236BFB</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>3.3v  5v  pot adjust</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59237632</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>-  +</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>59238C1F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>5924E04E</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>50k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>5924E1C0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LD3985G</value>
+      <footprint>TO_SOT_Packages_THT:TO-220-5_Pentawatt_Multiwatt-5_Vertical</footprint>
+      <libsource lib="regul" part="LD3985G"/>
+      <sheetpath names="/power/" tstamps="/589D6CC1/"/>
+      <tstamp>5924FEA3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="BARREL_JACK">
+      <description>DC Barrel Jack</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BARREL_JACK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector, single row, 01x04, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector, double row, 02x03, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LD3985G">
+      <description>150 mA Low Dropout Voltage Regulator</description>
+      <docs>http://www.st.com/internet/analog/product/69230.jsp</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD3985G</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:TSOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="INH" type="input"/>
+        <pin num="4" name="BYP" type="input"/>
+        <pin num="5" name="VOUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM358">
+      <aliases>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>LM358N</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>4558</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TLC272</alias>
+        <alias>MCP602</alias>
+      </aliases>
+      <description>Dual Op amp (low power)</description>
+      <docs>ns/lm158.pdf</docs>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+        <fp>TO-99*</fp>
+        <fp>DSBGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmeter</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/Library/Application Support/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/Library/Application Support/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets/>
+</export>

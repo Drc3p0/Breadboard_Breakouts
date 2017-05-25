@@ -1,0 +1,46 @@
+Source,/Users/DarcysMac/Desktop/Prototyping_Workshop/Prototyping PCB for Chicago/breadboard_breakouts/breadboard_breakouts.sch
+Kicad Rev,Eeschema (2017-04-07 revision 70c961f)-master
+Generated Date,Wednesday, May 24, 2017 'PMt' 08:10:57 PM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+P1,CONN_01X03,conn,CONN_01X03
+C7,47pF,device,C_Small
+U1,TL082,linear,TL082
+C2,.1uF,device,C_Small
+C3,.1uF,device,C_Small
+C4,.1uF,device,C_Small
+C5,.1uF,device,C_Small
+P3,CONN_01X02,conn,CONN_01X02
+P2,Mix_In,conn,CONN_01X04
+R9,100K,device,R
+R12,100K,device,R
+R11,100K,device,R
+C1,100uF,device,CP1_Small
+C11,100uF,device,CP1_Small
+R13,1K,device,R
+R10,100K,device,R
+R8,100K,device,R
+R6,100K,device,R
+R7,100K,device,R
+R2,100K,device,R
+R1,100K,device,R
+P22,-  +,conn,CONN_01X02
+CON1,BARREL_JACK,conn,BARREL_JACK
+C6,0.1uF,device,C
+C10,0.1uF,device,C
+C8,22uF,device,CP1_Small
+C9,22uF,device,CP1_Small
+R5,R_Small,device,R_Small
+RV2,V+ adjust,device,POT
+R4,R_Small,device,R_Small
+R3,R_Small,device,R_Small
+P4,3.3v  5v  pot adjust,conn,CONN_02X03
+P5,-  +,conn,CONN_01X02
+D1,LED,device,LED
+R14,50k,device,R
+U2,LD3985G,regul,LD3985G
